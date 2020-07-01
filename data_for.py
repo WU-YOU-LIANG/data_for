@@ -12,3 +12,8 @@ print(data[0])
 print('-------------')
 print(data[1])
 
+sum_len = 0 
+for d in data:
+	sum_len = sum_len + len(d)
+print('平均資料的長度為: ', sum_len / len(data))
+
